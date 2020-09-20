@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,15 +13,10 @@
 		B66B62AA25175CEA00E30A70 /* ListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62A925175CEA00E30A70 /* ListService.swift */; };
 		B66B62AF25175E1300E30A70 /* AppUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62AE25175E1300E30A70 /* AppUrls.swift */; };
 		B66B62B125175F0600E30A70 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62B025175F0600E30A70 /* Constants.swift */; };
-		B66B62B42517605D00E30A70 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B66B62B32517605D00E30A70 /* Alamofire */; };
-		B66B62B7251761D900E30A70 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B66B62B6251761D900E30A70 /* Realm */; };
-		B66B62B9251761D900E30A70 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B66B62B8251761D900E30A70 /* RealmSwift */; };
-		B66B62BC2517627500E30A70 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B66B62BB2517627500E30A70 /* SnapKit */; };
 		B66B62BF2517655600E30A70 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62BE2517655600E30A70 /* Item.swift */; };
 		B66B62C12517809900E30A70 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62C02517809900E30A70 /* Extensions.swift */; };
 		B66B62C52517836D00E30A70 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62C42517836D00E30A70 /* TextTableViewCell.swift */; };
 		B66B62C72517837E00E30A70 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62C62517837E00E30A70 /* ImageTableViewCell.swift */; };
-		B66B62CA2517A24D00E30A70 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B66B62C92517A24D00E30A70 /* Kingfisher */; };
 		B66B62CD2517A3F100E30A70 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62CC2517A3F100E30A70 /* DetailViewController.swift */; };
 		B66B62D02517A68900E30A70 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66B62CF2517A68900E30A70 /* DetailTableViewCell.swift */; };
 		B6EE5A9E2517303000F04681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE5A9D2517303000F04681 /* AppDelegate.swift */; };
@@ -29,9 +24,13 @@
 		B6EE5AA22517303000F04681 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE5AA12517303000F04681 /* ListViewController.swift */; };
 		B6EE5AA72517303200F04681 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6EE5AA62517303200F04681 /* Assets.xcassets */; };
 		B6EE5AAA2517303200F04681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EE5AA82517303200F04681 /* LaunchScreen.storyboard */; };
+		C23E519A7B75E8FED48D1519 /* Pods_SnapkitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2600A3E98C7E5B8557C37D37 /* Pods_SnapkitDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2600A3E98C7E5B8557C37D37 /* Pods_SnapkitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapkitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2671AA61374D9D4A1BCBA97C /* Pods-SnapkitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitDemo.debug.xcconfig"; path = "Target Support Files/Pods-SnapkitDemo/Pods-SnapkitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		733665CBD4810BFF07201431 /* Pods-SnapkitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapkitDemo.release.xcconfig"; path = "Target Support Files/Pods-SnapkitDemo/Pods-SnapkitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B61DCF412517540F00C2A556 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B66B62A525175CC400E30A70 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		B66B62A725175CD600E30A70 /* ListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRepository.swift; sourceTree = "<group>"; };
@@ -58,11 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66B62B9251761D900E30A70 /* RealmSwift in Frameworks */,
-				B66B62BC2517627500E30A70 /* SnapKit in Frameworks */,
-				B66B62B7251761D900E30A70 /* Realm in Frameworks */,
-				B66B62B42517605D00E30A70 /* Alamofire in Frameworks */,
-				B66B62CA2517A24D00E30A70 /* Kingfisher in Frameworks */,
+				C23E519A7B75E8FED48D1519 /* Pods_SnapkitDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +159,8 @@
 			children = (
 				B6EE5A9C2517303000F04681 /* SnapkitDemo */,
 				B6EE5A9B2517303000F04681 /* Products */,
+				C41AACA165F3F5102DBBEFA6 /* Pods */,
+				C6C4217F95352C21B7E632AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -190,6 +187,24 @@
 			path = SnapkitDemo;
 			sourceTree = "<group>";
 		};
+		C41AACA165F3F5102DBBEFA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2671AA61374D9D4A1BCBA97C /* Pods-SnapkitDemo.debug.xcconfig */,
+				733665CBD4810BFF07201431 /* Pods-SnapkitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6C4217F95352C21B7E632AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2600A3E98C7E5B8557C37D37 /* Pods_SnapkitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,22 +212,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6EE5AAE2517303200F04681 /* Build configuration list for PBXNativeTarget "SnapkitDemo" */;
 			buildPhases = (
+				BAEA7E8DAC344869781F182F /* [CP] Check Pods Manifest.lock */,
 				B6EE5A962517303000F04681 /* Sources */,
 				B6EE5A972517303000F04681 /* Frameworks */,
 				B6EE5A982517303000F04681 /* Resources */,
+				E61F5BB97D88E100926ABA03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SnapkitDemo;
-			packageProductDependencies = (
-				B66B62B32517605D00E30A70 /* Alamofire */,
-				B66B62B6251761D900E30A70 /* Realm */,
-				B66B62B8251761D900E30A70 /* RealmSwift */,
-				B66B62BB2517627500E30A70 /* SnapKit */,
-				B66B62C92517A24D00E30A70 /* Kingfisher */,
-			);
 			productName = SnapkitDemo;
 			productReference = B6EE5A9A2517303000F04681 /* SnapkitDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -241,12 +251,6 @@
 				Base,
 			);
 			mainGroup = B6EE5A912517303000F04681;
-			packageReferences = (
-				B66B62B22517605D00E30A70 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				B66B62B5251761D900E30A70 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
-				B66B62BA2517627500E30A70 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				B66B62C82517A24C00E30A70 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-			);
 			productRefGroup = B6EE5A9B2517303000F04681 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +271,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BAEA7E8DAC344869781F182F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapkitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61F5BB97D88E100926ABA03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapkitDemo/Pods-SnapkitDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapkitDemo/Pods-SnapkitDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapkitDemo/Pods-SnapkitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6EE5A962517303000F04681 /* Sources */ = {
@@ -421,6 +467,7 @@
 		};
 		B6EE5AAF2517303200F04681 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2671AA61374D9D4A1BCBA97C /* Pods-SnapkitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +486,7 @@
 		};
 		B6EE5AB02517303200F04681 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733665CBD4810BFF07201431 /* Pods-SnapkitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -477,69 +525,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B66B62B22517605D00E30A70 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.0;
-			};
-		};
-		B66B62B5251761D900E30A70 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-cocoa";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.2;
-			};
-		};
-		B66B62BA2517627500E30A70 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-		B66B62C82517A24C00E30A70 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B66B62B32517605D00E30A70 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B66B62B22517605D00E30A70 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		B66B62B6251761D900E30A70 /* Realm */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B66B62B5251761D900E30A70 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
-			productName = Realm;
-		};
-		B66B62B8251761D900E30A70 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B66B62B5251761D900E30A70 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
-			productName = RealmSwift;
-		};
-		B66B62BB2517627500E30A70 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B66B62BA2517627500E30A70 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		B66B62C92517A24D00E30A70 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B66B62C82517A24C00E30A70 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B6EE5A922517303000F04681 /* Project object */;
 }
